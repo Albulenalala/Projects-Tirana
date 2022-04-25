@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet TIRANA</title>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="https://pluspng.com/img-png/logo-albanain-eagle-png-albanain-eagle-logo-284.png"
+        type="image/icon type">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat+Alternates:ital,wght@0,400;1,100&family=Yanone+Kaffeesatz&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        body {
+            height: 100%;
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: rgb(20, 20, 53);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+            margin-bottom: 22px;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(120, 9, 9, 1) 35%, rgba(69, 9, 121, 1) 66%, rgba(0, 100, 255, 1) 98%);
+        }
+
+        .sideNav {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background: #517ab7ee;
+            z-index: 2;
+            visibility: hidden;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 50px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        #menuBtn {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            position: fixed;
+            right: 30px;
+            top: 20px;
+            border-radius: 3px;
+            z-index: 3;
+            cursor: pointer;
+        }
+
+        .menu-checkbox:checked~div.sideNav#sideNav {
+            visibility: visible !important;
+        }
+
+        .title-text {
+            text-align: center;
+            padding-bottom: 70px;
+
+        }
+
+        .title-text p {
+            margin: auto;
+            font-size: 20px;
+            color: #000000;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+        }
+
+        .title-text p::after {
+            content: '';
+            width: 50px;
+            height: 35px;
+            background: linear-gradient(#0b022e, rgb(145, 51, 51));
+            position: absolute;
+            top: -20px;
+            left: 0;
+            z-index: -1;
+            transform: rotate(10deg);
+            border-top-left-radius: 35px;
+            border: bottom left radius 35px;
+        }
+
+        .title-text h1 {
+            font-size: 50px;
+        }
+
+        body {
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+        }
+
+        .banner-btn {
+            margin: 70px auto 0;
+
+        }
+
+        .banner-btn a {
+            text-decoration: none;
+            font-family:  'Montserrat Alternates', sans-serif;
+            font-size: xx-large;
+            color: white;
+        }
+        .fun  {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+            place-items: center;
+            padding-top: 20px;
+            gap: 10px;
+            text-decoration: none;
+            height: 100vh;
+        
+       
+        }
+        
+        
+        
+        .name a {
+            text-decoration: none;
+            color: white;
+            
+            
+
+        }
+        h3{
+            text-align: start;
+            color: #0b022e;
+        }
+        h4{
+            color: #0b022e;
+        }
+        h5{
+            text-transform: uppercase;
+            color: aliceblue;
+        }
+        footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+        text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner-btn">
+
+        <a href="/pages/fun.html"> Have fun in Tirana
+            <span class="material-symbols-outlined">
+                celebration
+                </span>
+        </a>
+    </div>
+    <div>
+        <input class="menu-checkbox" type="checkbox" id="checkbox" hidden>
+        <label id="menuBtn" for="checkbox">
+            <img src="/images/menu_FILL0_wght400_GRAD0_opsz48.png" alt="" id="menu">
+        </label>
+        <div class="sideNav" id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="../main.html">HOME</a></li>
+                    <li><a href="/pages/culture.html">CULTURE</a></li>
+                    <li><a href="/pages/restaurants.html">RESTAURANTS</a></li>
+                    <li><a href="/pages/places.html">BEST PLACES FOR STUDENTS</a></li>
+                    <li><a href="/pages/help.html">HELP</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    </div>
+    <section class="fun">
+    
+    <div class="box">
+        <img src="https://th.bing.com/th/id/R.ea90145d9686f4c0511d1535e5fe0dda?rik=kop0RM%2bLw65uwA&pid=ImgRaw&r=0"
+            alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+    </div> 
+
+        <div class="name">
+            <a href="http://www.toptani.com.al/en">
+                <h2>
+                    Toptani Shopping Center
+                </h2>
+            </a>
+            <h3>
+                Opens-Closed
+            </h3>
+            <h4>07Am-23Pm</h4>
+            <h5>Different Brands</h5>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.GiljhqrPhy90f0K-kkA6lAHaE7?w=304&h=203&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+            alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+    </div> 
+
+        <div class="name">
+            <a href="https://qtu.al/al/">
+                <h2>
+                    QTU - Qendra Tregtare Univers
+                </h2>
+            </a>
+            <h3>
+                Opens-Closed
+            </h3>
+            <h4>07Am-23Pm</h4>
+            <h5>Different Brands</h5>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.xwEdUYlheg5Y_3MflHncIAHaDA?w=335&h=142&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+            alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+    </div> 
+
+        <div class="name">
+            <a href="https://teg.al/">
+                <h2>
+                    TEG - Tirana East Gate
+                </h2>
+            </a>
+            <h3>
+                Opens-Closed
+            </h3>
+            <h4>07Am-23Pm</h4>
+            <h5>Different Brands</h5>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.z4XNxQP6pCUkybyw5TVRFAHaFd?pid=ImgDet&rs=1"
+            alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+    </div> 
+
+        <div class="name">
+            <a href="https://latitudeair.al/en/info/locations/tirana/">
+                <h2>
+                    Latitude Tirana
+                </h2>
+            </a>
+            <h3>
+                Opens-Closed
+            </h3>
+            <h4>07Am-23Pm</h4>
+            <h5>Different Games </h5>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+
+</body>
+<footer>
+    <p>Company © W3docs. All rights reserved.</p>
+  </footer>
+
+</html>

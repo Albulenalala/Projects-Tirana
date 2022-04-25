@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet TIRANA</title>
+    <link rel="icon" href="https://pluspng.com/img-png/logo-albanain-eagle-png-albanain-eagle-logo-284.png"
+        type="image/icon type">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        body {
+            height: 100%;
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: rgb(20, 20, 53);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+            margin-bottom: 22px;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(120, 9, 9, 1) 35%, rgba(69, 9, 121, 1) 66%, rgba(0, 100, 255, 1) 98%);
+        }
+
+        .sideNav {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background: #517ab7ee;
+            z-index: 2;
+            visibility: hidden;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 50px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        #menuBtn {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            position: fixed;
+            right: 30px;
+            top: 20px;
+            border-radius: 3px;
+            z-index: 3;
+            cursor: pointer;
+        }
+
+        .menu-checkbox:checked~div.sideNav#sideNav {
+            visibility: visible !important;
+        }
+
+        .title-text {
+            text-align: center;
+            padding-bottom: 70px;
+
+        }
+
+        .title-text p {
+            margin: auto;
+            font-size: 20px;
+            color: #000000;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+        }
+
+        .title-text p::after {
+            content: '';
+            width: 50px;
+            height: 35px;
+            background: linear-gradient(#0b022e, rgb(145, 51, 51));
+            position: absolute;
+            top: -20px;
+            left: 0;
+            z-index: -1;
+            transform: rotate(10deg);
+            border-top-left-radius: 35px;
+            border: bottom left radius 35px;
+        }
+
+        .title-text h1 {
+            font-size: 50px;
+        }
+
+        body {
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+        }
+
+
+        
+        .box-contain ul li {
+            list-style: none;
+      
+         
+        }
+        .box-contain .paragraph{
+            text-align: center;
+        }
+        .box-contain img{
+            width:90%;
+            height: 90%;
+         
+        }
+        .box img{
+            width: 300px;
+            height: 250px;
+            display:inline-flex;
+           
+        }
+        h2{
+            text-align: center;
+            text-decoration: none;
+        }
+        .coffe {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+            place-items: center;
+            padding-top: 20px;
+            gap: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid blue;
+            border-radius: 20%;
+        }
+        h3{
+            text-align: center;
+            color: gray;
+        }
+        footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+        text-align: center;
+        }
+        h4{
+            text-align: center;
+            color: #0b022e;
+        }
+    </style>
+</head>
+<header>
+
+    <section id="banner">
+        <img src="https://pluspng.com/img-png/logo-albanain-eagle-png-albanain-eagle-logo-284.png" alt="" class="logo"
+            style="height: 100px; width:100px">
+
+    </section>
+    <div>
+        <input class="menu-checkbox" type="checkbox" id="checkbox" hidden>
+        <label id="menuBtn" for="checkbox">
+            <img src="/images/menu_FILL0_wght400_GRAD0_opsz48.png" alt="" id="menu">
+        </label>
+        <div class="sideNav" id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="../main.html">HOME</a></li>
+                    <li><a href="/pages/culture.html">CULTURE</a></li>
+                    <li><a href="/pages/restaurants.html">RESTAURANTS</a></li>
+                    <li><a href="/pages/places.html">BEST PLACES FOR STUDENTS</a></li>
+                    <li><a href="/pages/help.html">HELP</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+</header>
+<section id="places">
+    <div class="title-text">
+        <p>Students in Tirana</p>
+        <h1>The best for students </h1>
+        <h2>Information and places to go...</h2>
+    </div>
+
+    <body>
+
+        <div class="box-contain">
+            <div class="pharagraph">
+                <p>Tirana International School offers a wide variety of extracurricular activities for middle and high
+                    school students. TIS is a member of the Central and Eastern European School Association (CEESA), as
+                    well as the local Tirana Association of International Schools (TAIS). The school also participates
+                    in joint activities with fellow QSI schools in the Balkans: Sarajevo, Podgorica, and Skopje. Taken
+                    together, participation with these other organizations affords TIS students the opportunities to
+                    enhance their educational program and experience the social, competitive, and cooperative challenges
+                    that will help them grow in more ways than they can by sitting in a classroom.
+
+                    Part of the extracurricular experience involves travel outside the country to events hosted by
+                    CEESA, QSI Balkan schools, and others. These competitions and learning experiences are extremely
+                    enriching and help students grow.
+
+                    We believe that after-school activities add quality to students’ educational experiences and help
+                    them grow in both academic and social areas. With this belief in mind, we offer both
+                    school-sponsored and community-sponsored activities throughout the school year.
+
+                    School-sponsored activities are free of charge. These activities are planned in three cycles during
+                    the school year, each cycle being about 10 weeks in length. Teachers try to vary these activities
+                    during the school year in order to allow for active play outdoors as well as outdoor options. We are
+                    always open to suggestions from families about the activities they would like to see. Also, we
+                    encourage parents to offer activities themselves.</p>
+            </div>
+            <h2>Some places to learn outside...</h2>
+
+
+
+
+        </div>
+
+
+
+          
+         
+        </div>
+        <section class="coffe">
+        <div class="box">
+            <img src="https://i0.wp.com/thebalkanista.com/wp-content/uploads/2018/03/e7e-e1521923398308.jpg?fit=600%2C420"
+                alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+
+            <div class="name">
+                <a href="#name">
+                    <h2>
+                        Mon Cheri
+                    </h2>
+                </a>
+                <h3>
+                    Opens-Closed
+                </h3>
+                <h4>06:00-24:00</h4>
+            </div>
+        </div>
+        </div>
+        </div> <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.-2UuCBWl_JRphgR7rbQBHQHaE8?pid=ImgDet&w=1600&h=1070&rs=1"
+                alt="" style="border-radius: 20px;" width="200px" height="200px"></a>
+
+            <div class="name">
+                <a href="#name">
+                    <h2>
+                        Mulliri
+                    </h2>
+                </a>
+                <h3>
+                    Opens-Closed 
+                </h3>
+                <h4>06:00-24:00</h4>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        
+            <footer>
+                <p>Company © W3docs. All rights reserved.</p>
+              </footer>
+    
+
+    </body>
+
+</html>
